@@ -1,0 +1,163 @@
+*{
+    margin: 2px 2px;
+    font-family: 'Exo', sans-serif;
+}
+
+body{
+    background-color:rgb(231, 213, 213);
+    opacity: 1
+}
+
+nav{
+    background: rgb(72, 71, 71);
+    height: 60px;
+    margin-bottom: 0px;
+    opacity: 1;
+}
+
+.icono{
+    top: 20px;
+    left: 120px;
+    width: 30px;
+    height: 30px;
+    bottom: 15px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgba(11, 11, 11, 0.825);
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    }
+
+header h1{
+    font-size: 60px;
+        }
+
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+        }
+
+h2{
+    font-weight:600;
+    font-style: italic; 
+}
+
+#Proxima-Charla {
+    background: #703481;
+    padding: 60px;
+     color: white;
+    }
+
+#Proxima-Charla .charla {
+    width: 800px;
+    margin: auto;
+    }
+
+.charla img {
+    width: 25%;
+    border-radius: 5px;
+    }
+                
+.charla.texto {
+    width: 60%;
+    margin-left: 5%;
+                }
+
+.texto{
+    display: inline-block;
+    text-align: left;
+}
+
+#ubicacion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    display: block;
+    text-align:center;
+}
+
+#ubicacion img{
+    border-radius: 5px;
+}
+
+#eventos{
+    text-align: center;
+}
+
+article {  
+    list-style: none;
+    width: 30%;
+    display: inline-block;
+  }
+
+.evento img{
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+
+}
+
+footer {
+    text-align: center;
+    background: rgb(72, 71, 71);
+    color: white;
+    padding: 15px
+    }
+        
+i {
+    font-size: 15px;
+    color: white;
+    }
+
+.todo{
+    margin-left: 340px;
+     width: 700px;
+    height: 2000px;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.todo h1{
+    font-weight:600;
+    font-style: italic;
+    text-align: center;
+}
+
+.imge{
+    width: 700px;
+    border-radius: 5px;
+    text-align: center;
+
+}
